@@ -6,8 +6,8 @@
 A goal of mine is to complete my CRTL+SHIFT code school and to truley challenge myself to this wonderful oppurtunity and take in all that is offered to me.  My goal is to ace my internship and be able to be confident in the knowledge I have gained and be able to broadcast it effectively. Another goal is to stay organized and create a routine and **FOLLOW** it. All of this is easier said than done so I will have to discipline myself to achieve these results. 
 
 # Contact
-**Twitter:** @msstinson00    // 
-**LinkedIn:**:https://www.linkedin.com/in/marissa-stinson/    // 
+**Twitter:** @msstinson00    <br>
+**LinkedIn:**:https://www.linkedin.com/in/marissa-stinson/    <br>
 **Email:** Msstinson@outlook.com
 
 # Blog
