@@ -7,7 +7,7 @@ A goal of mine is to complete my CRTL+SHIFT code school and to truley challenge 
 
 # Contact
 **Twitter:** @msstinson00 // 
-**LinkedIn:**:https://www.linkedin.com/in/marissa-stinson/ // 
-**Email:** Msstinson@outlook.com
+      **LinkedIn:**:https://www.linkedin.com/in/marissa-stinson/ // 
+      **Email:** Msstinson@outlook.com
 
 # Blog
