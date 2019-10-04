@@ -1,4 +1,4 @@
-<p align="center">  <bu>About Me</bu>
+<p align="center">  <b>About Me</b>
 
 <p align="center">My name is Marissa and I am 27 years old. Born and raised in California until the age of 15, I moved to North Carolina for three years and decided to start fresh in Oklahoma close to my father after my highschool graduation. My life here is <i>pretty</i> good. I have a wonderful home with my two beautiful children and my two furr babies Nina and Bandit, who between the four of them, keep my very busy and I <b>love</b> it. I have completed some school at Rose State College and are two classes away from obtaining my Associates in Business Management. I must say, I do enjoy being in school and being able to accomplish new things. I am a homebody so a good night for me is cuddled up at home with <i>happy</i> babies while watching a movie. Like everyone, life has definetly given me my obstacles, but everyday I push through them and continue to persevere.
   
