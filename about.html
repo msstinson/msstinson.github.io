@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title | add some key words</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <!--add fonts via html-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700%7cKhula"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#content" class="hidden">Skip to content</a>
+      <img src="img/logo.png" alt="" width="25" height="25" />
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--This is only an example you do not have to use the same html elements and you do not have to use them in this order.-->
+    <div class="hero"></div>
+    <main id="content">
+      <h1>
+        Most important title but not the same words as the title in the header
+        tag
+      </h1>
+
+      <section id="top">
+        <h2>SEO friendly title</h2>
+        <div class="classy">
+          <p>
+            Some text related to this section here.
+          </p>
+          <ol>
+            <li>heart list styles with css</li>
+            <li>heart icon styles with css</li>
+            <li>heart icon styles with css</li>
+          </ol>
+        </div>
+      </section>
+      <section id="middle">
+        <h2>Title about this section</h2>
+        <p>Some text about this section</p>
+        <div class="details">
+          <h3>Information related to this section and div</h3>
+          <ol>
+            <li>More content</li>
+            <li>More details</li>
+          </ol>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <h2>Contact</h2>
+        <!-- Fieldset with legend -->
+
+        <form action="contact.php" method="post">
+          <fieldset>
+            <!-- You can hide legend from the browser but make it readable for screen-readers   -->
+            <legend>Contact Information</legend>
+
+            <label for="firstname">First</label>
+            <input id="firstname" name="firstname" type="text" required />
+
+            <label for="lastname">Last</label>
+            <input id="lastname" name="lastname" type="text" required />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </fieldset>
+          <button class="button" type="submit">Contact</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li class="copyright">&copy; 2019 Code Class</li>
+        <li><a href="sitemap.xml">Sitemap |</a></li>
+        <!--you can google for websites that will generate an xml sitemap for you-->
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <!--more on privacy policy here https://html.com/privacy/ and  https://digital.com/blog/best-privacy-policy-generators/-->
+      </ul>
+    </footer>
+  </body>
+</html>
