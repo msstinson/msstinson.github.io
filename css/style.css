@@ -41,154 +41,155 @@ Table of Contents
 
 
 body {
-  font-family: 'Khula', sans-serif;
-  font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-}
-
-.button {
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 700;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-/*#################################################### -Global Styles ####################################################*/
-body{
-    background-color: #EBE4DE;
-}
-
-
- a {		
-	text-decoration: none;
-	color: #fff;
-}
-
-a:hover {
-	color: #F769C2;
-}
-
-a:active {
-	color: hotpink;
-}
-
- ul li {
-    display: inline;
-	 padding: 8px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
   }
-
-
-/*#################################################### -Header ####################################################*/
-header{
-	
-	background-color: #9B9A94;			
-}
-
-.nav {
-	padding: 12px;
-}
-
-
-
-h1 {
-    text-align: center;
-    color: navy;
-}
-
-   .hidden {
-    position:absolute;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Maven Pro', serif;
+    font-weight: 400;
   }
-
-div .hero{
-     background-image: url("../img/sparkle.jpeg");   /*--- step out of css folder and into img folder ../img/ */
-     background-repeat: no-repeat;
-     background-position: top;
-     background-attachment: fixed;
-	 max-height: 460px;
- }
-
-main{
-	padding: 5%;
-}
-
-
-
-   ol{
-        list-style-image: url('../img/heart.png')  /*--- step out of css folder and into img folder ../img/filename.png    */
-    } 
-
-/*#################### -Form #########################*/
-
-form{
-	max-width: 650px;
-	font-size: 16px;
-	background: #E0CBC4;
-	padding: 30px 30px 15px 30px;
-	border: 5px solid #9B9A94;
-}
-
-fieldset {
-	display: flex;
-	text-align: left;
-}
-
-input{
-  width: 80%;
-  padding: 10px;	
-  margin: 5px;	
-}
-
-input[type=text]:focus {
-  background-color: lightblue;
-}
-
-    
-/*#################################################### -Footer ####################################################*/
-
-
-
-
-p.copyright {
-  color: #fff;
-  line-height: 40px;
-  font-size: 0.7em;
-}
-
-
-footer{
-	background-color: #131310;
-	color: #EBE4DE;
-}
-
-
-
-/*#################################################### -Media Queries #################################################*/
+  
+  .button {
+    font-family: 'Maven Pro', serif;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  /*#################################################### -Global Styles ####################################################*/
+  body{
+      background-color:#737373;
+  }
+  
+  
+   a {		
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  a:hover {
+      color: #F769C2;
+  }
+  
+  a:active {
+      color: hotpink;
+  }
+  
+   ul li {
+      display: inline;
+       padding: 8px;
+    }
+  
+  
+  /*#################################################### -Header ####################################################*/
+  header{
       
+      background-color: #803C3C;			
+  }
+  
+  .nav {
+      padding: 0px;
+  }
+  
+  
+  
+  h1 {
+      text-align: center;
+      color: rgb(133, 45, 45);
+  }
+  
+     .hidden {
+      position:absolute;
+      top:auto;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+    }
+  
+  div .hero{
+       background-image: url("../img/sparkle.jpeg");   /*--- step out of css folder and into img folder ../img/ */
+       background-repeat: no-repeat;
+       background-position: top;
+       background-attachment: fixed;
+       max-height: 460px;
+   }
+  
+  main{
+      padding: 5%;
+  }
+  
+  
+  
+     ol{
+          list-style-image: url('../img/heart.png')  /*--- step out of css folder and into img folder ../img/filename.png    */
+      } 
+  
+  /*#################### -Form #########################*/
+  
+  form{
+      max-width: 650px;
+      font-size: 16px;
+      background: #E0CBC4;
+      padding: 30px 30px 15px 30px;
+      border: 5px solid #9B9A94;
+  }
+  
+  fieldset {
+      display: flex;
+      text-align: left;
+  }
+  
+  input{
+    width: 80%;
+    padding: 10px;	
+    margin: 5px;	
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+  
       
-
-      /*----to use font awesome fonts for styling
-
-      ul {
-        list-style: none;
-        padding: 0;
-      }
-      li {
-        padding-left: 1.3em;
-      }
-      li:before {
-        content: "\f00c";                FontAwesome Unicode 
-        font-family: FontAwesome;
-        display: inline-block;
-        margin-left: -1.3em;             same as padding-left set on li
-        width: 1.3em;                    same as padding-left set on li 
-      }
-
-      ------*/
+  /*#################################################### -Footer ####################################################*/
+  
+  
+  
+  
+  p.copyright {
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+  }
+  
+  
+  footer{
+      background-color: #131310;
+      color: #EBE4DE;
+  }
+  
+  
+  
+  /*#################################################### -Media Queries #################################################*/
+        
+        
+  
+        /*----to use font awesome fonts for styling
+  
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+        li {
+          padding-left: 1.3em;
+        }
+        li:before {
+          content: "\f00c";                FontAwesome Unicode 
+          font-family: FontAwesome;
+          display: inline-block;
+          margin-left: -1.3em;             same as padding-left set on li
+          width: 1.3em;                    same as padding-left set on li 
+        }
+  
+        ------*/
+  
