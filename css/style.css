@@ -8,7 +8,7 @@ body, html {
   
   /* my header background and text */
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.getyourguide.com/img/tour_img-1115436-145.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/bf/2f/9b/bf2f9b32ef19a990c957e524a5cfa472.jpg);
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
