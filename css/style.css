@@ -1,4 +1,4 @@
-
+/*
 
 body, html {
     height: 100%;
@@ -57,8 +57,8 @@ body, html {
   }
 
   .sub-nav-container div {
-      margin-left: 75px;
-      margin-right: 75px;
+      margin-left: 40px;
+      margin-right: 40px;
       
 }
   .sub-nav-container a { 
@@ -71,5 +71,11 @@ body, html {
         text-decoration: none;
     }
 
-    a 
- 
+    a:hover { 
+        background-color: #555 
+    }
+  
+    /*This is my contact icons
+
+    .fa-linkedin-in{
+      color: yellow;} 
