@@ -75,7 +75,13 @@ body, html {
         background-color: #555 
     }
   
-    /*This is my contact icons
+    /*This is my contact icons*/
 
     .fa-linkedin-in{
       color: yellow;} 
+
+    footer {
+      text-align: center;}
+
+    footer ul{
+      display: inline;}
