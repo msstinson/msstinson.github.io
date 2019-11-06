@@ -1,8 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+   
   }
+
+  
   
   /* my header background and text */
   .hero-image {
@@ -21,6 +23,7 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    font-family: 'Numans', sans-serif;
     
   }
   
@@ -61,7 +64,7 @@ body, html {
 }
   .sub-nav-container a { 
         color: black;
-        font-family:'Raleway', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 20px;
     }
  
