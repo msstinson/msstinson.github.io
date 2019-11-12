@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width+device-width initial-scale=1"/>
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
 
-    <title> Marissa Stinson Webpage</title>
-
-    
-<link href="https://fonts.googleapis.com/css?family=Numans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <title> Marissa Stinson </title>
+   
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
  
 
-  
+<script src="js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+   <div class="main">
+     <p class="first-name"> MARISSA</p>
+     <p class="last-name">STINSON</p>
+     <p class="status">student // developer</p>
+   </div>
 
-    <div class="hero-image">
-        <div class="hero-text">
-             <h1 style="font-size:50px">Marissa N. Stinson</h1>
-             <h2 style="font size:30px">Asprising Developer</h2>
-        </div>
-    </div>
+
+   
+   <img class="mainpicture" src="Images/mainpicture.jpg" alt="Personal Picture">
             
-    <nav class="nav-container">
-        <div class="sub-nav-container">
-        <div><a href="about.html">ABOUT ME</a><br></div>
-        <div><a href="resume.html">RESUME</a><br></div>
-        <div><a href="skills.html">SKILLS</a><br></div>
-        <div><a href="blogs.html">BLOGS</a></div><br>
-        <div><a href="Contact me.html">CONTACT ME</a><br></div>
-        </div>
-                 
-    </nav>
+    
+    <div class="topnav">
+        <a href="#about">ABOUT ME</a>
+        <a href="#resume">RESUME</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#blogs">BLOGS</a>
+        <a href="#Contact">CONTACT ME</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
 
-        
 
-        
-              
 
- <img class="rounded" src="Images/mainpicture.jpg" alt="mainpicture" height="300" width="auto">
+     <!-- Control buttons -->
+<div class="main">
+        <button class="btn active" onclick="filterSelection('all')"> HOME</button>
+        <button class="btn" onclick="filterSelection('aboutme')"> ABOUT ME</button>
+        <button class="btn" onclick="filterSelection('resume')"> RESUME</button>
+        <button class="btn" onclick="filterSelection('skills')"> SKILLS</button>
+        <button class="btn" onclick="filterSelection('blogs')"> BLOGS</button>
+        <button class="btn" onclick="filterSelection('contact')"> CONTACT ME</button>
+      </div>
+      
+      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+      <div class="container">
+        <div class="filterDiv aboutme">hey my name is marissa </div>
+        <div class="filterDiv resume">resume is coming soon</div>
+        <div class="filterDiv skills">i have multiple skills</div>
+        <div class="filterDiv blogs">check out my blogs</div>
+        <div class="filterDiv cars contact">msstinson@outlook.com</div>
+      </div> 
+
+
+ <section id="about">
+
+
+<h2>about</h2>
+
+ </section>
+
+ <section id="resume">
+
+<h2>resume</h2>
+
+
+</section>
+
+</div><!--main-->
  
 
  <footer id="footer">
@@ -58,8 +92,18 @@
     
     
     
-    </footer>
+    </footer >
     
 
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 </body>
 </html>
