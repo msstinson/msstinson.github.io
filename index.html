@@ -11,9 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">   
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
  
-
-
-<script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -21,7 +19,6 @@
 <body>
    
   <div class="main">
- 
      <p class="first-name"> MARISSA</p>
      <p class="last-name">STINSON</p>
      <p class="status">student // developer</p>
@@ -29,8 +26,7 @@
 
   <img class="mainpicture" src="Images/mainpicture.jpg" alt="Personal Picture">
             
-    
-    <!-- tab buttons -->
+  <!-- tab buttons -->
   <div class="tabs" id="myBtnContainer">
       <button class="btn active" onclick="filterSelection('home')"> HOME</button>
       <button class="btn" onclick="filterSelection('aboutme')"> ABOUT ME</button>
@@ -40,7 +36,7 @@
       <button class="btn" onclick="filterSelection('contact')"> CONTACT ME</button>
   </div>
       
-    <!-- content in each tab-->
+  <!-- content in each tab-->
   <div class="container">
       <div class="filterDiv home"></div>
       <div class="filterDiv aboutme">hey my name is marissa </div>
@@ -53,22 +49,17 @@
 </div>
 
 
- 
-
  <footer id="footer">
         <ul>
             <li><a href="https://www.linkedin.com/in/marissa-stinson/"> <i class="fab fa-linkedin-in fa-2x"></i> </a></li>
             <li><a href="https://twitter.com/Msstinson00"> <i class="fab fa-twitter fa-2x"></i> </a></li>
             <li><a href="https://github.com/msstinson"> <i class="fab fa-github fa-2x"></i> </a></li>
             <li><a href="https://dev.to/msstinson00"> <i class="fab fa-dev fa-2x"></i> </a></li>
-    
-    
         </ul>
+  </footer>
     
-    
-    
-    </footer >
-    
+
+  <!------ javscript for tabs-----------------------------------------------------------> 
 
 <script>
     function myFunction() {
@@ -79,8 +70,6 @@
         x.className = "topnav";
       }
     }
-
-
 
 function filterSelection(c) { console.log (c)
   var x, i;
