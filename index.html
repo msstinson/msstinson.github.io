@@ -12,7 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
  
 
-<script src="js/main.js"></script>
 
 <script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
 
@@ -26,15 +25,14 @@
      <p class="first-name"> MARISSA</p>
      <p class="last-name">STINSON</p>
      <p class="status">student // developer</p>
-    </div><!--div main end-->
 
 
   <img class="mainpicture" src="Images/mainpicture.jpg" alt="Personal Picture">
             
     
-    <!-- Control buttons -->
+    <!-- tab buttons -->
   <div class="tabs" id="myBtnContainer">
-      <button class="btn" onclick="filterSelection('all')"> HOME</button>
+      <button class="btn active" onclick="filterSelection('home')"> HOME</button>
       <button class="btn" onclick="filterSelection('aboutme')"> ABOUT ME</button>
       <button class="btn" onclick="filterSelection('resume')"> RESUME</button>
       <button class="btn" onclick="filterSelection('skills')"> SKILLS</button>
@@ -42,14 +40,17 @@
       <button class="btn" onclick="filterSelection('contact')"> CONTACT ME</button>
   </div>
       
-    <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+    <!-- content in each tab-->
   <div class="container">
+      <div class="filterDiv home"></div>
       <div class="filterDiv aboutme">hey my name is marissa </div>
       <div class="filterDiv resume">resume is coming soon</div>
       <div class="filterDiv skills">i have multiple skills</div>
       <div class="filterDiv blogs">check out my blogs</div>
       <div class="filterDiv cars contact">msstinson@outlook.com</div>
   </div> 
+
+</div>
 
 
  
@@ -81,11 +82,9 @@
 
 
 
-  filterSelection("all")
-function filterSelection(c) {
+function filterSelection(c) { console.log (c)
   var x, i;
   x = document.getElementsByClassName("filterDiv");
-  if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
@@ -129,5 +128,6 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
     </script>
+
 </body>
 </html>
