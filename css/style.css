@@ -78,14 +78,17 @@ body, html {
   }
 
   .filterDiv {
-    float: left;
     background-color: #2c2726;
     color: #ffffff;
-    width: 100px;
-    line-height: 100px;
+    width: 880px;
+    line-height: 30px;
     text-align: center;
     margin: 2px;
     display: none;
+    left:250px;
+    position: relative;
+    top: 500px;
+    font-family: 'Julius Sans One';
   }
 
   
