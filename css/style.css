@@ -22,7 +22,7 @@ body, html {
       margin-left: 10%;
       color: #fff;
       position: relative;
-   }
+  }
    
   .first-name{
       font-family: 'Julius Sans One', sans-serif;
@@ -31,7 +31,7 @@ body, html {
       font-size: 80px;
       position: absolute;
       left: 260px;
-   }
+  }
 
    .last-name{
       font-family: 'Julius Sans One', sans-serif;
@@ -42,7 +42,7 @@ body, html {
       left: 250px;
       top: 100px; 
     
- }
+  }
 
    .status{
       font-family: 'Julius Sans One';
@@ -52,16 +52,17 @@ body, html {
       position: absolute;
       left:285px;
       top: 280px;
-   }
+  }
 
-   .mainpicture{
+   .mainpicture2{
      position: absolute;
-     top: 20px;
-     left:1100px;
+     top: 60px;
+     left:800px;
      width: auto;
      height: 300px;
-     border-radius: 40%;
-   }
+     border-radius: 70%;
+    
+  }
 
    /******* this is the tab section inside the main containee*********/
 
@@ -69,13 +70,11 @@ body, html {
     background: #fff;
     overflow: hidden;
     text-align: center;
-    padding: 8px;
+    padding: 0px;
     position: absolute;
-    width: 1457px;
-    bottom: 500px;
-    font-size: 1.9em;
+    width: 1473px;
+    bottom: 460px;
     
-
   }
 
   .filterDiv {
@@ -86,11 +85,11 @@ body, html {
     text-align: center;
     margin: 2px;
     display: none;
-    left:250px;
+    left:280px;
     position: relative;
-    top: 500px;
+    top: 600px;
     font-family: 'Abel', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   
@@ -104,6 +103,7 @@ body, html {
     background: #fff; 
     overflow:hidden;
     justify-content: center;
+    font-size: 1.5em;
   }
 
   .topnav a {
@@ -118,14 +118,12 @@ body, html {
   }
 
   .About {
-    font-size: 2em;
-    font-family: 'Staatliches', cursive;
-    color: #ce6161;
-
-
-
-
+    font-size: 1.7em;
+    font-family: 'Syncopate', sans-serif;
+    color: #773b3b;
+    
   }
+
 
 
   /* for the filtered elements */

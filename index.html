@@ -12,9 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">  
- 
-    <script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Syncopate&display=swap" rel="stylesheet"> 
 
+    
+    <script src="https://kit.fontawesome.com/f830ea7f77.js" crossorigin="anonymous"></script>
 </head>
 
 
@@ -26,9 +27,9 @@
      <p class="status">student // developer</p>
 
 
-  <img class="mainpicture" src="Images/mainpicture.jpg" alt="Personal Picture">
+  <img class="mainpicture2" src="Images/mainpicture2.jpg" alt="Personal Picture">
             
-  <!-- tab buttons -->
+  <!------tab buttons---------->
   <div class="tabs" id="myBtnContainer">
       <button class="btn active" onclick="filterSelection('home')"> HOME</button>
       <button class="btn" onclick="filterSelection('aboutme')"> ABOUT ME</button>
@@ -37,45 +38,56 @@
       <button class="btn" onclick="filterSelection('blogs')"> BLOGS</button>
       <button class="btn" onclick="filterSelection('connect')"> CONNECT</button>
   </div>
-      
-  <!-- content in each tab-->
+
+
+   <!-------content in each tab------>
   <div class="container">
+
       <div class="filterDiv home"></div>
 
       <div class="filterDiv aboutme">
-          <div class="About">
-               What I'm all about
-          </div>
-          <br><br>
+            <div class="About">
+               WHAT I'M ALL ABOUT
+            </div>
+            <br><br>
         
-        I am new to being a part of the IT world but I have always had an interest in Web Development and never knew it. 
-        I grew up in a household where both parents built themselves up the IT latter in Silicon Valley. I have been taught many things surrounding computers 
-        as they have developed. This made me very computer savvy as a kid. I loved projects that surrounded anything power point or creating brochures and 
-        things of that nature. I taught myself Microsoft publisher and would just go crazy creating different things on there. I have made menus, brochures, 
-        and business cards for a local business and anything for myself like budget sheets, or checklists. I always really enjoyed this; like a hobby.   </div>
+            I am new to being a part of the IT world but I have always had an interest in Web Development and never knew it. 
+            I grew up in a household where both parents built themselves up the IT latter in Silicon Valley. I have been taught many things surrounding computers 
+            as they have developed. This made me very computer savvy as a kid. I loved projects that surrounded anything power point or creating brochures and 
+            things of that nature. I taught myself Microsoft publisher and would just go crazy creating different things on there. I have made menus, brochures, 
+            and business cards for a local business and anything for myself like budget sheets, or checklists. I always really enjoyed this; like a hobby.   
+          
+            
+          </div>
 
-      <div class="filterDiv resume">resume is coming soon</div>
+      <div class="filterDiv resume">
+          <div class="Resume"></div>
+          <div class="Is"></div>
+          <div class="Coming"></div>
+          <div class="Soon"></div>
+      </div>
+         
 
       <div class="filterDiv skills">i have multiple skills</div>
 
       <div class="filterDiv blogs">check out my blogs</div>
 
-      <div class="filterDiv cars contact">msstinson@outlook.com</div>
+      <div class="filterDiv connect">msstinson@outlook.com
+
+          <ul>
+              <li><a href="https://www.linkedin.com/in/marissa-stinson/"> <i class="fab fa-linkedin-in fa-2x"></i> </a></li>
+              <li><a href="https://twitter.com/Msstinson00"> <i class="fab fa-twitter fa-2x"></i> </a></li>
+              <li><a href="https://github.com/msstinson"> <i class="fab fa-github fa-2x"></i> </a></li>
+              <li><a href="https://dev.to/msstinson00"> <i class="fab fa-dev fa-2x"></i> </a></li>
+          </ul>
+        
+      </div>
   </div> 
 
 </div>
 
 
- <footer id="footer">
-        <ul>
-            <li><a href="https://www.linkedin.com/in/marissa-stinson/"> <i class="fab fa-linkedin-in fa-2x"></i> </a></li>
-            <li><a href="https://twitter.com/Msstinson00"> <i class="fab fa-twitter fa-2x"></i> </a></li>
-            <li><a href="https://github.com/msstinson"> <i class="fab fa-github fa-2x"></i> </a></li>
-            <li><a href="https://dev.to/msstinson00"> <i class="fab fa-dev fa-2x"></i> </a></li>
-        </ul>
-  </footer>
-    
-
+ 
   <!------ javscript for tabs-----------------------------------------------------------> 
 
 <script>
