@@ -73,13 +73,14 @@ body, html {
     position: absolute;
     width: 1457px;
     bottom: 500px;
+    font-size: 1.9em;
     
 
   }
 
   .filterDiv {
     background-color: #2c2726;
-    color: #ffffff;
+    color: #c5c0b7;
     width: 880px;
     line-height: 30px;
     text-align: center;
@@ -88,7 +89,8 @@ body, html {
     left:250px;
     position: relative;
     top: 500px;
-    font-family: 'Julius Sans One';
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3em;
   }
 
   
@@ -113,6 +115,16 @@ body, html {
     font-size: 1.4rem;
     margin-left: 40px;
     margin-right: 40px;
+  }
+
+  .About {
+    font-size: 2em;
+    font-family: 'Staatliches', cursive;
+    color: #ce6161;
+
+
+
+
   }
 
 
