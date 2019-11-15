@@ -12,7 +12,7 @@ body, html {
    }
 
   
-/****************This is the main container section that has all the content*******************************/
+/****************Top Static Part of Website*******************************/
 
    .main{ 
       background-color: #2c2726;
@@ -64,7 +64,7 @@ body, html {
     
   }
 
-   /******* this is the tab section inside the main containee*********/
+   /*******************this is the tab section*************************/
 
   .tabs {
     background: #fff;
@@ -117,12 +117,86 @@ body, html {
     margin-right: 40px;
   }
 
-  .About {
+  /************Home Page*********************/
+  .Home {
     font-size: 1.7em;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+    
+     
+  }
+
+  .Brain {
+    position: absolute;
+    top: 20px;
+    left:500px;
+    width: auto;
+    height: 300px;
+    border-radius: 70%;
+  }
+
+  .Home-Quote {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
     color: #773b3b;
     
   }
+  
+  /***********About Me Page******************/
+  .About {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+    
+  }
+  
+  /************Resume Page*********************/
+  .Resume {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+  }
+
+  .Is {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #42a8b2;
+  }
+
+  .Coming {
+    font-size: 1.9em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #42a8b2;
+  }
+
+  .Soon {
+    font-size: 2.1em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #42a8b2;
+  }
+
+  /************Experience Page*********************/
+  .Experience {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+  }
+
+  /************Blog Page*********************/
+  .Blogs {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+  }
+
+  /************Connect Page*********************/
+  .Connect {
+    font-size: 1.7em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+  }
+
+  
 
 
 
