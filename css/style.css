@@ -23,10 +23,8 @@ body, html {
       color: #fff;
       position: relative;
   }
-  .container{
-    width: auto;
-    height: 100%;
-  }
+  
+ 
    
   .first-name{
       font-family: 'Julius Sans One', sans-serif;
@@ -45,8 +43,7 @@ body, html {
       position: absolute;
       left: 250px;
       top: 100px; 
-    
-  }
+    }
 
    .status{
       font-family: 'Julius Sans One';
@@ -60,13 +57,18 @@ body, html {
 
    .mainpicture2{
      position: absolute;
-     top: 60px;
-     left:800px;
-     width: auto;
-     height: 300px;
+     /* top: 60px;
+     left:800px; */
+     top: 8%;
+     left: 50%;
+     max-width: auto;
+     max-height: 300px;
      border-radius: 70%;
+     
     
   }
+
+ 
 
    /*******************this is the tab section*************************/
 
@@ -76,7 +78,7 @@ body, html {
     text-align: center;
     padding: 0px;
     position: absolute;
-    width: 1473px;
+    width: 100%;
     bottom: 460px;
     
   }
@@ -88,7 +90,7 @@ body, html {
     height: 100%;
     line-height: 30px;
     text-align: center;
-    margin: 2px;
+    /* margin: 2px; */
     display: none;
     left: 0px;
     position: relative;
@@ -112,16 +114,7 @@ body, html {
     font-size: 1.5em;
   }
 
-  .topnav a {
-    display: inline-flex;
-    color: #000;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    font-size: 1.4rem;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
+  
 
   /************Home Tab*********************/
   .Home {
@@ -134,33 +127,35 @@ body, html {
     top: 20px;
     left:500px;
     width: auto;
-    height: 400px;
+    height: 500px;
     padding-bottom: 10px;
-    
-  }
+    }
 
   .Home-Quote {
     font-size: 1.7em;
     font-family: 'Annie Use Your Telescope', cursive;
     color: #773b3b;
-    
-  }
+    padding-bottom: 30%;
+    }
   
   /***********About Me Tab******************/
   .About {
-    font-size: 2em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b;
-    /* text-align: center;
+  
+     text-align: center;
     padding-bottom: 1rem;
-    width: 100%; */
+    width: 100%; 
     
   }
 
+  .About h2 {
+    font-size: 2em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b; color:yellow;
+  }
+
   .about-text {
-    margin-bottom: 20px;
-    padding: 1rem;
     
+    margin: 0 5% 0 5%;
 
   }
   
@@ -309,6 +304,72 @@ body, html {
         display: block;
         text-align: left;
       }
+      .mainpicture2{
+        display: none;
+      }
 
 
+    }
+
+
+    @media screen and (max-width: 1200px) {
+
+      .top{
+        display: block;
+      }
+
+      .mainpicture2{
+        position: absolute;
+        /* top: 60px;
+        left:800px; */
+        top: 8%;
+        left: 50%;
+        max-width: auto;
+        max-height: 80%;
+        border-radius: 70%;
+        
+       
+     }
+
+
+  .tabs {
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 45%;
+    
+  }
+
+  .first-name{
+    font-family: 'Julius Sans One', sans-serif;
+    align-items: center;
+    color:  #e0dea3 ;
+    font-size: 5em;
+    position: absolute;
+    left: 10%;
+
+}
+
+ .last-name{
+    font-family: 'Julius Sans One', sans-serif;
+    align-items: center;
+    color: #42a8b2;
+    font-size: 5em;
+    position: absolute;
+    left: 10%;
+    top: 8%; 
+  }
+
+ .status{
+    font-family: 'Julius Sans One';
+    align-items: center;
+    color:  #b8baba;
+    font-size: 1.8em;
+    position: absolute;
+    left:13%;
+    top: 25%;
+}
     }
