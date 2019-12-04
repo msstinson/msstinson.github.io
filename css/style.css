@@ -24,8 +24,6 @@ body, html {
       position: relative;
   }
   
- 
-   
   .first-name{
       font-family: 'Julius Sans One', sans-serif;
       align-items: center;
@@ -64,13 +62,9 @@ body, html {
      max-width: auto;
      max-height: 300px;
      border-radius: 70%;
-     
-    
   }
 
- 
-
-   /*******************this is the tab section*************************/
+ /*******************this is the tab section*************************/
 
   .tabs {
     background: #fff;
@@ -90,7 +84,6 @@ body, html {
     height: 100%;
     line-height: 30px;
     text-align: center;
-    /* margin: 2px; */
     display: none;
     left: 0px;
     position: relative;
@@ -140,23 +133,19 @@ body, html {
   
   /***********About Me Tab******************/
   .About {
-  
-     text-align: center;
+    text-align: center;
     padding-bottom: 1rem;
     width: 100%; 
-    
   }
 
   .About h2 {
     font-size: 2em;
     font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b; color:yellow;
+    color: #773b3b; 
   }
 
   .about-text {
-    
     margin: 0 5% 0 5%;
-
   }
   
   /************Resume Tab*********************/
