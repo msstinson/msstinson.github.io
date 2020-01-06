@@ -106,36 +106,13 @@ body, html {
     justify-content: center;
     font-size: 1.5em;
   }
-
-  
-
-  /************Home Tab*********************/
-  .Home {
-    font-size: 2em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b;
-  }
-
-  .Brain {
-    top: 20px;
-    left:500px;
-    width: auto;
-    height: 500px;
-    padding-bottom: 10px;
-    }
-
-  .Home-text {
-    font-size: 1.7em;
-    font-family: 'Poiret One', cursive;
-    color: #773b3b;
-    padding-bottom: 30%;
-    }
   
   /***********About Me Tab******************/
   .About {
     text-align: center;
     padding-bottom: 1rem;
     width: 100%; 
+    font-family: 'Poiret One', cursive;
   }
 
   .About h2 {
