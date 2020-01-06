@@ -61,7 +61,7 @@ body, html {
      left: 50%;
      max-width: auto;
      max-height: 300px;
-     border-radius: 70%;
+     border-radius: 50%;
   }
 
  /*******************this is the tab section*************************/
@@ -113,10 +113,12 @@ body, html {
     padding-bottom: 1rem;
     width: 100%; 
     font-family: 'Poiret One', cursive;
+    color: #ece4b7;
   }
 
   .About h2 {
     font-size: 2em;
+    font-family: 'Poiret One', cursive;
     font-family: 'Annie Use Your Telescope', cursive;
     color: #773b3b; 
   }
