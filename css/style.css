@@ -130,14 +130,8 @@ body, html {
   /************Resume Tab*********************/
   
 
-  .Resume-Quote {
-    font-size: 2em;
-    font-family: 'Poiret One', cursive;
-    color: #42a8b2;
-    line-height: 80px;
-    
 
-  }
+  
   /************Experience Tab*********************/
   .Experience {
     font-size: 1.1em;
@@ -153,15 +147,15 @@ body, html {
 
   }
 
-  .Code-School {
-    font-size: 1em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b;
+  .School-Link {
+    font-size: 1.1em;
+    font-family: 'Poiret One', cursive;
+    color: #ece4b7;
   }
   
 
   /************Blog Tab*********************/
-  .Blogs {
+  .Projects {
     font-size: 2em;
     font-family: 'Annie Use Your Telescope', cursive;
     color: #773b3b;
