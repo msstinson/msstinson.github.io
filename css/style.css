@@ -128,29 +128,7 @@ body, html {
   }
   
   /************Resume Tab*********************/
-  .Resume {
-    font-size: 2em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b;
-  }
-
-  .Is {
-    font-size: 1.7em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #e0bd71;
-  }
-
-  .Coming {
-    font-size: 1.9em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #42a8b2;
-  }
-
-  .Soon {
-    font-size: 2.1em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #e0cc93;
-  }
+  
 
   .Resume-Quote {
     font-size: 2em;
@@ -162,9 +140,9 @@ body, html {
   }
   /************Experience Tab*********************/
   .Experience {
-    font-size: 2em;
-    font-family: 'Annie Use Your Telescope', cursive;
-    color: #773b3b;
+    font-size: 1em;
+    font-family: 'Poiret One', cursive;
+    color: #ece4b7;
   }
 
   /************Blog Tab*********************/
