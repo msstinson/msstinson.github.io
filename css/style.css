@@ -143,7 +143,22 @@ body, html {
     font-size: 1.1em;
     font-family: 'Poiret One', cursive;
     color: #ece4b7;
+
   }
+
+  .Languages {
+    font-size: 1.2em;
+    font-family: 'Poiret One', cursive;
+    color: #42a8b2;
+
+  }
+
+  .Code-School {
+    font-size: 1em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    color: #773b3b;
+  }
+  
 
   /************Blog Tab*********************/
   .Blogs {
