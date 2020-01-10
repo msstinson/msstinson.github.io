@@ -108,6 +108,14 @@ body, html {
   }
   
   /***********About Me Tab******************/
+  
+  .Creativity{
+    font-size: 1.8em;
+    font-family: 'Poiret One', cursive;
+    color: #42a8b2;
+  }
+  
+  
   .About {
     text-align: center;
     padding-bottom: 1rem;
@@ -156,9 +164,7 @@ body, html {
 
   /************Blog Tab*********************/
   .Projects {
-    font-size: 1.1em;
-    font-family: 'Abel', sans-serif;
-    color: #ece4b7;
+    
   }
 
   /************Connect Tab*********************/
